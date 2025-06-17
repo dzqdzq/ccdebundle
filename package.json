@@ -1,0 +1,26 @@
+{
+  "name": "ccdebundle",
+  "version": "1.1.0",
+  "main": "debundle.js",
+  "keywords": [
+    "cocos",
+    "creator",
+    "debundle",
+    "parser",
+    "dzqdzq"
+  ],
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/dzqdzq/ccdebundle.git"
+  },
+  "author": "dzqdzq",
+  "license": "MIT",
+  "description": "对cocos creator2.x项目构建出的index.js进行解包",
+  "bin": {
+    "ccdebundle": "bin/cmd.js"
+  },
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "escodegen": "^2.1.0"
+  }
+}
